@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+/* navbar */
+
+
+
+.navbar-nav {
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+
+.navbar {
+    background-color: #0a193d;
+    color: white !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav-item {
+    padding-left: 2px;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-left: 100px;
+}
+
+#navbar button {
+    color: white !important;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+/* banner */
+
+
+
+.text-center {
+    font-size: 80px
+}
+
+.adventure {
+    font-size: 60px;
+}
+
+.para {
+    font-size: 40px;
+}
+
+.para1 {
+    font-size: 30px;
+}
+
+.inputPlace {
+    height: 10%;
+    width: 50%;
+    margin-left: 110px;
+    border-color: #32497d;
+    border-radius: 10%;
+    padding-left: 15%;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 550px;
+    width: 600px;
+    padding: 20px 35px;
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 10px 10px 10px #777373, 10px 10px 10px #858585;
+}
+
+#banner-container {
+    color: #0a193d !important;
+    padding-top: 155px;
+    padding-bottom: 100px;
+    background-image: url(b.jpg);
+}
+
+#banner-row img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    box-shadow: 10px 10px 10px #000, 10px 10px 10px #858585;
+}
+
+#banner-row h3,
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#banner-row a {
+    background-color: white !important;
+    color: black !important;
+    border: none;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+#banner-col {
+    padding-left: 20px;
+}
+
+
+
+/* service */
+
+
+
+#service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url(dev.webp);
+    width: 100%
+}
+
+#desti {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#service h1 {
+    padding-bottom: 70px;
+}
+
+.place {
+    text-decoration: none;
+}
+
+/* about */
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #c0bdbd;
+}
+
+.quote {
+    font-size: 30px;
+    color: #0a193d;
+    margin-top: -50px;
+}
+
+#about h1 {
+    padding-bottom: 70px;
+}
+
+#about-col ul {
+    padding-top: 50px;
+    padding-left: 55px;
+}
+
+#about-col ul li {
+    padding-top: 15px;
+    font-size: 20PX;
+
+}
+
+.name {
+    padding-left: 9%;
+    font-size: 40px;
+    padding-top: 4%;
+}
+
+/* product */
+
+#product {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#product h1 {
+    padding-bottom: 70px;
+}
+
+#product-col2 ul {
+    padding-top: 90px;
+}
+
+#product-col2 ul li {
+    padding-top: 15px;
+}
+
+h4 {
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.list {
+    font-size: 20px;
+    list-style-type: none;
+    word-spacing: 10px;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+/* social */
+
+#social {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#social h1 {
+    padding-bottom: 70px;
+}
+
+.social-col a:hover img {
+    transform: translateY(-10px);
+}
+
+#social-row {
+    flex-direction: row;
+}
+
+/* footer */
+
+.mb-3 {
+    padding-top: 10px;
+}
+
+#banner-container1 {
+    background-color: #0a193d;
+    color: white !important;
+    padding-top: 155px;
+    padding-bottom: 100px;
+}
+
+.footbar {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #c0bdbd;
+
+}
+
+.ico a {
+    border: 1px solid #0a193d;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    float: right;
+    display: inline;
+}
+
+.icon a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.planet {
+    font-size: 15px;
+    float: left;
+}
+
+
+/* media */
+@media only screen and (max-width: 987px) {
+    .navbar-brand {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #banner-row img {
+        padding-top: 20px;
+    }
+
+    .social-col {
+        width: 33%;
+    }
+
+}
